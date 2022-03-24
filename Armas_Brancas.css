@@ -1,0 +1,128 @@
+* {
+	box-sizing: border-box;
+}
+#boxtop {
+	background-color: black;
+	border-bottom: solid 1px #fff;
+}
+.img1, .img3{
+	opacity: 0.5;
+}
+.img2, .img4{
+	opacity: 0.5;
+}
+.img1:hover, .img2:hover, .img3:hover, .img4:hover {
+	opacity: 1;
+	border: solid black 1px;
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.7);
+}
+.box {
+	border: solid black 1px; 
+	padding: 10px;
+}
+.dropdown {
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 131px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ul {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow: auto;
+	list-style-type: none;
+	background-color: #000;
+	overflow: hidden;
+}
+img {
+	width: 35%;
+	border: solid #ccc 1px;
+}
+body {
+	color: #000;
+	line-height: 18px;
+	margin: 0;
+	text-align: justify;
+	font-size: 16px;
+	background-color: rgba(0,0,0,0.1);
+}
+header {
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	padding: 1px;
+}
+h1 {
+	font-family:  "Colonna MT", "Freestyle Script", "Matura MT Script Capitals";
+	font-size: 35px;
+	padding: 0px;
+}
+h2 {
+	font-family:  Consolas, "Freestyle Script", "Colonna MT";
+	font-size: 25px;
+	text-indent: 25px;
+}
+li {
+	font-family: "Bell MT", "Bodoni MT", "Gill Sans MT";
+}
+li a, .dropbtn {
+	color: #fff;
+	display: inline-block;
+	background-color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: dotted black 1px;
+	font-family: Consolas, "Courier New", monospace;
+}
+li a:Visited{
+	color: #fff;
+	display: block;
+	background-color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: dotted black 1px;
+	font-family: Consolas, "Courier New", monospace;
+}
+li a:hover{
+	color: #000;
+	display: block;
+	background-color: #fff;
+	padding: 8px 16px;
+	text-decoration: none;
+	border: dotted black 1px;
+	font-family: Consolas, "Courier New", monospace;
+}
+p {
+	text-indent: 25px;
+	font-family: "Bell MT", "Bodoni MT", "Gill Sans MT";
+}
+footer {
+	font-family: Consolas, "Courier New", monospace;
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	padding: 1px;
+	font-size: 10px;
+	margin: 0;
+}

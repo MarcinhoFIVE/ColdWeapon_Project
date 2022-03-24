@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Armas Brancas | Galeria</title>
+	<link rel="stylesheet" type="text/css" href="Armas_Brancas.css">
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	.info {
+		text-align: center;
+		padding: 5px;
+	}
+	.galeria {
+		border: solid #ccc 1px;
+		opacity: 0.5;
+	}
+	.galeria img {
+		width: 100%;
+		height: auto;
+	}
+	.galeria:hover {
+		opacity: 1;
+		border: solid black 1px;
+		box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.7);
+	}
+	.responsive {
+		padding: 0px 3px;
+		/*padding-bottom: 5px;*/
+		float: left;
+		width: 24.99999%;
+	}
+	@media only screen and (max-width: 1300px) {
+		.responsive {
+			width: 49.99999%;
+			margin-bottom: 6px;
+		}
+	}
+	@media only screen and (max-width: 1000px) {
+		.responsive {
+			width: 100%;
+		}
+	}
+	@media only screen and (max-width: 700px) {
+		h2 {
+			font-size: 15px;
+		}
+	}
+	li {
+		float: left;
+	}
+	li a{
+		text-align: center;
+	}
+	ul {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow: auto;
+	}
+	section {
+		margin-left: 130px;
+		margin-right: 130px;
+	}
+	header {
+		text-align: left;
+		text-indent: 160px;
+	}
+</style>
+</head>
+<body>
+	<nav>
+		<ul style="border-bottom: solid 1px white; line-height: 17px;">
+			<li><a href="index.html" target="_self">Home</a></li>
+			<li><a href="chinesa.html" target="_self">Chinesas</a></li>
+			<li><a href="romana.html" target="_self">Romanas</a></li>
+			<li class="dropdown"><a class="dropbtn" href="#">Japonesas &#x25BC;</a>
+				<div class="dropdown-content">
+					<a href="japonesa_kunai.html" target="_self" style="border-top: solid 1px white;">Kunai</a>
+					<a href="japonesa_bo.html" target="_self">Bō</a>
+					<a href="japonesa_sai.html" target="_self">Sai</a>
+					<a href="japonesa_shuriken.html" target="_self">Shuriken</a>
+				</div>
+			</li>
+			<li><a href="galeria.html" target="_self">Galeria</a></li>
+			<li><a href="formulario.html" target="_self">Formulário</a></li>
+		</ul>
+	</nav>
+	<header>
+		<h1>Galeria de Armas Brancas</h1>
+	</header>
+	<br>
+	<section>
+		<div style="border: solid 1px black; overflow: auto; padding: 5px;">
+			<h2>Armas Brancas Chinesas</h2>
+			<hr>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="chinesas/Chinesa_Sanjiegun.jpg" target="_blank">
+						<img src="chinesas/Chinesa_Sanjiegun.jpg" alt="San Jie Gun" width="800" height="800">
+					</a>
+					<div class="info">
+						Bastão de três seções de madeira ou metal conectados por anéis de metal, correntes ou corda.
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="chinesas/Chinesa_NanDao.jpg" target="_blank">
+						<img src="chinesas/Chinesa_NanDao.jpg" alt="Nan Dao" width="800" height="800">
+					</a>
+					<div class="info">
+						Is a kind of sword that is used mostly in contemporary Chinese wushu exercises and forms.
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="chinesas/Chinesa_GuanDao.jpg" target="_blank">
+						<img src="chinesas/Chinesa_GuanDao.jpg" alt="Guan Dao" width="800" height="800">
+					</a>
+					<div class="info">
+						Anormalmente larga, com um gancho atrás adornado com crina de cavalo avermelhada.
+					</div>
+				</div>
+			</div>
+			<div class="responsive" style="margin-bottom: 10px;">
+				<div class="galeria">
+					<a href="chinesas/Chinesa_Jian.jpg" target="_blank">
+						<img src="chinesas/Chinesa_Jian.jpg" alt="Jian" width="800" height="800">
+					</a>
+					<div class="info">
+						Lâmina afiada em formato de diamante, mais espessa no centro, afinando até os gumes da espada.
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div style="border: solid 1px black; overflow: auto; padding: 5px;">
+			<h2>Armas Brancas Romanas</h2>
+			<hr>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="Romanas/galeria/Romana_Pugio.jpg" target="_blank">
+						<img src="Romanas/galeria/Romana_Pugio.jpg" alt="Pugio" width="800" height="800">
+					</a>
+					<div class="info">
+						Punhal para combates mais próximos, provavelmente era usado para propósitos mais ornamentados.
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="Romanas/galeria/Romana_Spatha.jpg" target="_blank">
+						<img src="Romanas/galeria/Romana_Spatha.jpg" alt="Spatha" width="800" height="800">
+					</a>
+					<div class="info">
+						Lâmina de gumes retos, geralmente de seção lenticular ou em diamante, mais comprida do que o gládio.
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="Romanas/galeria/Romana_Pilum.jpg" target="_blank">
+						<img src="Romanas/galeria/Romana_Pilum.jpg" alt="Pilum" width="800" height="800">
+					</a>
+					<div class="info">
+						Quando Espadas não alcançavam o inimigo usavam o pilum, que era uma longa lança ou dardo.
+					</div>
+				</div>
+			</div>
+			<div class="responsive" style="margin-bottom: 10px;">
+				<div class="galeria">
+					<a href="Romanas/galeria/Romana_Harpe.png" target="_blank">
+						<img src="Romanas/galeria/Romana_Harpe.png" alt="Harpe" width="800" height="800">
+					</a>
+					<div class="info">
+						Espada ou foice referida em fontes da Grécia e Roma Antigas, quase sempre no contexto mitológico.
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div style="border: solid 1px black; overflow: auto; padding: 5px;">
+			<h2>Armas Brancas Japonesas</h2>
+			<hr>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="Japonesas/Japonesa_Kunai.jpg" target="_blank">
+						<img src="Japonesas/Japonesa_Kunai.jpg" alt="Kunai" width="800" height="800">
+					</a>
+					<div class="info">
+						Lâmina de ferro com um grande furo na base (ou pode não ter furo), destinado a amarrar cordas.
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="Japonesas/Japonesa_bo.jpg" target="_blank">
+						<img src="Japonesas/Japonesa_bo.jpg" alt="Bō" width="800" height="800">
+					</a>
+					<div class="info">
+						Um bastão de um comprimento que normalmente varia entre os 180 cm e os 210 cm.
+					</div>
+				</div>
+			</div>
+			<div class="responsive">
+				<div class="galeria">
+					<a href="Japonesas/Japonesa_Sai.jpg" target="_blank">
+						<img src="Japonesas/Japonesa_Sai.jpg" alt="Sai" width="800" height="800">
+					</a>
+					<div class="info">
+						Uma espécie de punhal asiático com três ramos que permite picar, mas não cortar.
+					</div>
+				</div>
+			</div>
+			<div class="responsive" style="margin-bottom: 10px;">
+				<div class="galeria">
+					<a href="Japonesas/Japonesa_Shuriken.jpg" target="_blank">
+						<img src="Japonesas/Japonesa_Shuriken.jpg" alt="Shuriken" width="800" height="800">
+					</a>
+					<div class="info">
+						Armas ocultas normalmente arremessadas, mas também podiam servir para cortar ou espetar.
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<br>
+	<footer>
+		Márcio Darlan Amaro Nogueira&trade; - Copyright&copy; : For Educational Purposes Only &#9824;
+	</footer>
+</body>
+</html>

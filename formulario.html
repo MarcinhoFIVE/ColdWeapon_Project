@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Armas Brancas | Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Armas_Brancas.css">
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	section {
+		margin: 20px;
+	}
+	li {
+		float: left;
+	}
+	li a{
+		text-align: center;
+	}
+	ul {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow: auto;
+	}
+	input[type=text], select, textarea {
+		width: 100%;
+		padding: 12px;
+		border: 1px solid #ccc;
+		background-color: white;
+		color: black;
+		border-radius: 4px;
+		resize: vertical;
+		resize: none;
+		font-size: 20px;
+		font-family: "Bell MT", "Bodoni MT", "Gill Sans MT";
+	}
+	input[type=text]:focus {
+		background-color: black;
+		color: white;
+	}
+	label {
+		padding: 12px 12px 12px 0;
+		display: inline-block;
+		font-weight: bolder;
+		font-size: 20px;
+		color: white;
+	}
+	input[type=submit] {
+		font-size: 1.3em;
+		background-color: #fff;
+		color: black;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		float: right;
+		padding: 12px 20px;
+		font-size: 20px;
+		font-family: "Bell MT", "Bodoni MT", "Gill Sans MT";
+	}
+	input[type=submit]:hover {
+		background-color: #ccc;
+		color: black;
+	}
+	.container {
+		border-radius: 5px;
+		background-color: #000;
+		padding: 20px;
+	}
+	.col-25 {
+		float: left;
+		width: 25%;
+		margin-top: 6px;
+	}
+	.col-75 {
+		float: left;
+		width: 75%;
+		margin-top: 6px;
+	}
+	.row:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	@media screen and (max-width: 600px) {
+		.col-25, .col-75, input[type=submit] {
+			width: 100%;
+			margin-top: 0;
+		}
+	}
+</style>
+</head>
+<body>
+		<nav>
+			<ul style="border-bottom: solid 1px white; line-height: 17px;">
+				<li><a href="index.html" target="_self">Home</a></li>
+				<li><a href="chinesa.html" target="_self">Chinesas</a></li>
+				<li><a href="romana.html" target="_self">Romanas</a></li>
+				<li class="dropdown"><a class="dropbtn" href="#">Japonesas &#x25BC;</a>
+					<div class="dropdown-content">
+						<a href="japonesa_kunai.html" target="_self" style="border-top: solid 1px white;">Kunai</a>
+						<a href="japonesa_bo.html" target="_self">Bō</a>
+						<a href="japonesa_sai.html" target="_self">Sai</a>
+						<a href="japonesa_shuriken.html" target="_self">Shuriken</a>
+					</div>
+				</li>
+				<li><a href="galeria.html" target="_self">Galeria</a></li>
+				<li><a href="formulario.html" target="_self">Formulário</a></li>
+			</ul>
+		</nav>
+		<header>
+			<h1>Deixe o Seu Feedback</h1>
+		</header>
+		<hr><br>
+		<section class="box">
+			<div class="container">
+				<form action="agradecimento.html" method="GET">
+					<div class="row">
+						<div class="col-25"><label for="pnome">Nome</label></div>
+						<div class="col-75">
+							<input type="text" name="firstname" id="pnome" placeholder="Nome" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25"><label for="snome">Sobrenome</label></div>
+						<div class="col-75">
+							<input type="text" name="lastname" id="snome" placeholder="Sobrenome" required>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25"><label for="estado">Avaliação</label></div>
+						<div class="col-75">
+							<select name="estado" id="estado">
+								<option value="MB">Gostei Muito</option>
+								<option value="B">Gostei</option>
+								<option value="R">Achei Normal</option>
+								<option value="I">Ficou Ruim</option>
+								<option value="MI">Minha Avó Faria Melhor</option>
+							</select>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25"><label for="coment">Comentário</label></div>
+						<div class="col-75">
+							<textarea id="coment" name="coment" placeholder="Descreva Sua Experiência Acessando o Site..." style="height: 200px;"></textarea>
+						</div>
+					</div>
+					<br>
+					<div class="row">
+						<input type="submit" name="Enviar">
+					</div>
+				</form>
+			</div>
+		</section>
+	<br>
+	<footer>
+		Márcio Darlan Amaro Nogueira&trade; - Copyright&copy; : For Educational Purposes Only &#9824;
+	</footer>
+</body>
+</html>
